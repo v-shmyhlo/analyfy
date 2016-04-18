@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Analify do
+describe Analyfy do
   it 'has a version number' do
-    expect(Analify::VERSION).not_to be nil
+    expect(Analyfy::VERSION).not_to be nil
   end
 
   it 'does something useful' do
