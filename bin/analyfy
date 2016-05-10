@@ -4,6 +4,6 @@
 # first when searching the load path
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
-require 'analyfy/core'
+require 'analyfy'
 
-Analyfy::Core.new
+Analyfy::CLI.new.run
